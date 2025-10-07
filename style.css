@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffef6;
+  color: #222;
+}
+
+
+header {
+  background-color: #ffcc00;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e67e00;
+}
+
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sidebar-left {
+  width: 25%;
+  background-color: #fff4cc;
+  padding: 15px;
+}
+
+.middle {
+  width: 40%;
+  padding: 15px;
+}
+
+.sidebar-right {
+  width: 35%;
+  background-color: #fff4cc;
+  padding: 15px;
+}
+
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffcc00;
+  color: #222;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
